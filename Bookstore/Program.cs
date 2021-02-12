@@ -51,8 +51,6 @@ namespace Bookstore
 
             Console.Out.WriteLine($"Ex-GST:\t\t{gstExcluded:c}");
             Console.Out.WriteLine($"Inc-GST:\t{gstIncluded:c}");
-            Console.Out.WriteLine("Press any key to exit");
-            Console.Read();
         }
 
         /// <summary>
