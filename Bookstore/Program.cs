@@ -82,7 +82,7 @@ namespace Bookstore
                     cost = RoundNearestCent(cost * (1m - discounts[item.Book.Genre]));
                 }
 
-                total = cost * item.Quantity;
+                total += cost * item.Quantity;
             }
 
             //$5.95 delivery fee for orders less than $20

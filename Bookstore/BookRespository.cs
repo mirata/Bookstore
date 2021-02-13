@@ -61,7 +61,7 @@ namespace Bookstore
                     Title = "The Tolkien Years",
                     Author = "Greg Hildebrandt",
                     Genre = BookGenre.Fantasy,
-                    UnitPrice = 22.909m
+                    UnitPrice = 22.90m
                 }
             };
         }
